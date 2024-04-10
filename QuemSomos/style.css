@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 95vh;
+}
+
+#capa {
+    background-color: rgb(237, 237, 237);
+}
+
+#capa {
+    display: flex;
+    justify-content: center;
+}
+
+#capa > img {
+    width: 95%;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    display: inline;
+}
+
+h1 {
+    padding: 15px 0 10px 0;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+}
+
+footer p {
+  font-weight: bold;
