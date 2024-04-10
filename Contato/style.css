@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+form label,
+form input,
+form textarea {
+  display: block;
+}
+
+section {
+  width: 90%;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: inline;
+}
+
+h1 {
+  padding: 15px 0 10px 0;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+}
+
+footer p {
+  font-weight: bold;
+}
