@@ -5,7 +5,7 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
 }
 
 #capa {
@@ -19,6 +19,7 @@ body {
 
 #capa > img {
   width: 95%;
+  height: 50%;
 }
 
 section {
@@ -44,9 +45,8 @@ p {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 45%;
+  display: flex;
+  justify-content: center;
 }
 
 footer p {
